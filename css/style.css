@@ -26,6 +26,11 @@
 .row{
     display: flex;
 }
+#discover{
+    margin-top: 15%;
+
+}
+
 .table{
    /* background-image: url("../assests/images/mother.jpg");*/
    /*height: 600px;*/
@@ -51,15 +56,20 @@
 .copyright {
     font-size:16px;
 }
-
-.icons {
-    text-align: right;
-
+hr{
+    margin-top: 0;
+}
+.pre-footer{
+    margin-top: 0;
 
 }
+.icons {
+    text-align: right;
+}
+
 .girl img{
     opacity: 30%;
 }
-.know-more{
+#know-more{
     margin-top: 30%;
 }
