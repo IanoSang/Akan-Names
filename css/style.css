@@ -13,11 +13,14 @@
 .intro{
     margin-top: 3%;
 }
-.form{
+.row form{
+    /*margin-right: 0;*/
     height: 600px;
     /*background-image: url("../assests/images/coco.jpg") ;*/
     background-size: cover;
-    /*opacity: 30%;*/
+    /*opacity: 0.5;*/
+  color: #1B1B1B;
+
 }
 #generateAkan{
     background-color: green;
@@ -32,9 +35,13 @@
 }
 
 .table{
-   /* background-image: url("../assests/images/mother.jpg");*/
-   /*height: 600px;*/
-   /* background-size: cover;*/
+    /*margin-left: 0;*/
+    background-image: url("../assests/images/mother.jpg");
+   height: 600px;
+    background-size: cover;
+}
+.table tr{
+    color: whitesmoke;
 }
 #footer{
     font-family: "Cardo";
