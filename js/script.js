@@ -19,8 +19,25 @@ function akanName (){
 }
 generateAkan.addEventListener('click', function (e){
     e.preventDefault()
-    if (month.value =="" && year.value =="" && date.value =="") {
+    if (month.value == "" && year.value =="" && date.value =="") {
         alert("Please Enter you credentials");
         return false;
     }
+    else if (year.value <= 0) {
+        alert("invalid Year of Birth! ")
+    }
+
+    else if ((month.value < 1) || (month.value > 31)) {
+        alert(" invalid Month! ")
+    }
+
+    else if (date.value < 0 || date.value > 31) {
+
+        alert("invalid Date of Birth! ")
+    }
+
+
+
+
+
 })
