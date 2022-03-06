@@ -15,9 +15,21 @@
 }
 .form{
     height: 600px;
-    background-image: url("../assests/images/coco.jpg") ;
+    /*background-image: url("../assests/images/coco.jpg") ;*/
     background-size: cover;
     /*opacity: 30%;*/
+}
+#generateAkan{
+    background-color: green;
+    border-radius: 10px;
+}
+.row{
+    display: flex;
+}
+.table{
+   /* background-image: url("../assests/images/mother.jpg");*/
+   /*height: 600px;*/
+   /* background-size: cover;*/
 }
 #footer{
     font-family: "Cardo";
